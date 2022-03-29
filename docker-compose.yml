@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  main-service:
+    build: demo12/
+    image: demo12
+    ports:
+      - 8080:8080
+    volumes:
+      - /opt/demo12/tmp:/opt/demo12/tmp
